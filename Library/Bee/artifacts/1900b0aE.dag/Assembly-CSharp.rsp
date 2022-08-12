@@ -371,7 +371,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/QuickOutline/Scripts/Outline.cs"
+"Assets/Scripts/selected_dictionary.cs"
 "Assets/Scripts/SelectionManager.cs"
+"Assets/Scripts/Utils.cs"
 -langversion:9.0
 
 /deterministic
