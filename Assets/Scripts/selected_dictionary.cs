@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class selected_dictionary : MonoBehaviour
 {
-    public Dictionary<int, GameObject> selectedTable = new Dictionary<int, GameObject>();
+    // This "static" makes the variable global so I can access it from any script
+    public static Dictionary<int, GameObject> selectedTable = new Dictionary<int, GameObject>();
 
     public void addSelected(GameObject go)
     {
